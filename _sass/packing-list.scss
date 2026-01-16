@@ -150,3 +150,11 @@
 .promo-yes .skip-promo-yes {
   @include detail-disabled;
 }
+
+.percussion-no .skip-percussion-no {
+  @include detail-disabled;
+}
+
+.percussion-yes .skip-percussion-yes {
+  @include detail-disabled;
+}

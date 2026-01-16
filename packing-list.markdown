@@ -322,6 +322,13 @@ You have <span class="musician-count" data-parts="alto1 alto2 tenor1 tenor2 bari
 </figure>
 </details>
 
+<details open class="skip-percussion-no">
+<summary>Percussion bag</summary>
+<figure>
+  <img src="/assets/kit/percussion.jpg" />
+</figure>
+</details>
+
 </section>
 
 ## Music
@@ -434,9 +441,6 @@ You need <span class="stand-count" data-parts="tpt1 tpt2 tpt3 tpt4 tbn1 tbn2 tbn
 
 <details open class="skip-venue-outdoor">
 <summary>Stand lights</summary>
-<p>
-You need <span class="stand-count" data-parts="alto1 alto2 tenor1 tenor2 bari clarinet guitar bass tpt1 tpt2 tpt3 tpt4 tbn1 tbn2 tbn3 tbn4"></span> stand lights.
-</p>
 <div>TODO picture</div>
 </details>
 

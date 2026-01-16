@@ -38,7 +38,12 @@
   }
 }
 
-
 @import "minima";
 @import "packing-list";
 @import "troubleshooting";
+
+
+hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

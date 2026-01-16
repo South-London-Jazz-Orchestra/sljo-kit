@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
             break;
     }
 
-    const toggles = ["vocal", "electric", "lights", "payments", "promo"];
+    const toggles = ["vocal", "electric", "lights", "payments", "promo", "percussion"];
 
     for (const toggle of toggles) {
         switch (params.get(toggle)) {

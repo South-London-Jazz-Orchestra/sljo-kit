@@ -28,6 +28,11 @@ in_menu: True
         <label><input type="number" name="tenor2" min=1 max=12 data-fullband=3 /> Tenor 2</label>
         <label><input type="number" name="bari" min=1 max=3 data-fullband=3 /> Bari</label>
         <label><input type="number" name="clarinet" min=1 max=4 data-fullband=1 /> Clarinet</label>
+
+
+        <hr />
+        <label><input type="checkbox" name="vocal" value="yes" /> Vocals</label>
+        <label><input type="checkbox" name="percussion" value="yes" /> Percussionist (bongos etc)</label>
       </div>
       <div>
         <label><input type="number" name="tpt1" min=1 max=4 data-fullband=1 /> Trumpet 1</label>
@@ -45,13 +50,10 @@ in_menu: True
   <fieldset>
     <legend>Other</legend>
     <div>
-      <label><input type="checkbox" name="vocal" value="yes" /> Vocals</label>
-    </div>
-    <div>
       <label><input type="checkbox" name="electric" value="yes" checked /> Venue has electricity</label>
     </div>
     <div>
-      <label><input type="checkbox" name="lights" value="yes" /> Stage lights</label>
+      <label><input type="checkbox" name="lights" value="yes" /> Stage lights (ambiance)</label>
     </div>
     <div>
       <label><input type="checkbox" name="payments" value="yes" /> Taking payments (tickets / donations)</label>
